@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.navbar {
+ background-color: #466ca0;
+ font-family: 'DM Sans', sans-serif;
+ letter-spacing: 2px;
+}
+
+.nav-link:hover{
+    background-color: #accce4;
+   border-radius: 3px;
+}
+
+/*main-text-area start*/
+
+.main-main .main-banner{
+    background-image: url(../assets/bg2.jpg);
+    height: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.main-main .main-banner .main-title h3{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 43%;
+    font-weight: 500;
+}
+
+.main-main .main-banner .main-title h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5rem;
+}
+
+.main-main .main-banner .main-title h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+/*main-text-area end*/
+
+/*button-area start*/
+
+.button.primary-button{
+    background-color: #466ca0;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: .6s ease;
+    box-shadow: 2px 2px 5px 1px rgb(145, 142, 142);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after{
+    position: absolute;
+    top: -2px; left: 2px;
+    bottom: -2px; right: -2px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,91,201,1) 0%, rgba(62,106,180,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+   background: white;
+   background-clip: padding-box;
+   transition: .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,106,180,1) 0%, rgba(91,91,201,1) 100%, rgba(0,212,255,1) 100%);
+    color: black;
+    box-shadow: 1px 1px 5px 1px rgb(145, 142, 142);
+}
+
+/*About-me-area-start*/
+
+.about-area{
+    padding: 6rem 2rem;
+}
+
+.about-area .about-title h2 span{
+    display: block;
+    font: normal 49px/60px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.about-area .about-title .paragraph p{
+ padding: .1rem 0;
+ font-family: 'DM Sans', sans-serif;
+ letter-spacing: 2px;
+}
+
+.abt{
+    background-color: #466ca0;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.abt:hover{
+    background-color: #ffffff;
+    color:#000000;
+    transition: .5s;
+    border-color: #466ca0;
+}
+
+/*About-me-area-end*/
+
+/*Myskills-area-start*/
+.skill-area{
+    padding: 6rem 2rem;
+}
+
+.card{
+    width: 160px;
+    height: 180px;
+    border: none;
+    box-shadow:  0 4px 4px 6px #efefef;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+/* 
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+} */
+
+.html5:hover{
+    color: #f06529;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.ht:hover{
+    color: #f06529;
+}
+
+.csssk:hover{
+    color: #0170ba;
+}
+
+.btsk:hover{
+    color: #69429b;
+}
+
+.skjs:hover{
+    color: #f1cb2c;
+}
+
+.css3:hover{
+  color: #0170ba;
+  transition: .5s;
+  font-size: 20px;
+}
+
+.bt-4:hover{
+   color: #69429b;
+   transition: .5s;
+   font-size: 20px;
+}
+
+.jssk:hover{
+    color: #f1cb2c;
+    transition: .5s;
+    font-size: 20px;
+}
+
+
+/*Myskills-area-end*/
+
+/*Services-area-start*/
+
+.service-area{
+    font-family: 'DM Sans', sans-serif;
+    padding: 6rem 2rem;
+}
+
+.service-title {
+    padding: 0 4rem;
+}
+
+.services{
+    background-color: #dee5f0;
+    border-radius: 4px;
+    padding: 1.5rem 0.1rem;
+    width:20rem;
+    margin: 1.5rem .1rem;
+    transition: box-shadow .5s ease;
+    transform: scale(0.9);
+}
+
+.services:hover{
+    box-shadow: 1px 1px 5px 1px rgb(145, 142, 142);
+}
+
+/*Services-area-end*/
+
+/*contact-us-start*/
+
+.subscribe{
+    background: url(/assets/contact-bg.jpg) no-repeat;
+    padding: 6rem 0;
+    margin: 2rem auto;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.subscribe .subscribe-title h4{
+    color: white;
+}
+
+.form{
+    padding-top: 2%;
+}
+
+.form input {
+     border-radius: 4px;
+     border-width: 1px;
+     width: 20px;
+}
+
+.btn-1{
+    color: black;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: 0px;
+}
+input[type="text"],
+input[type="email"],
+input[type="name"] {
+    border: none;
+    background-color: #0e0e0e;
+    border-bottom: 2px solid #0f33ff;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    padding: 25px;
+    margin: 5px;
+    color: #fff;
+    font-family: 'Mitr', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="name"]:focus {
+    border-bottom: 2px solid #fff;
+}
+
+/*contact-us-end*/
+
+/*footer-area-start*/
+
+.foot-h4{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.social a i{
+    width: 60px;
+    font-size: 30px;
+}
+
+.copyrights{
+    font-family: 'DM Sans', sans-serif;   
+    padding: 1rem 0rem;
+}
+
+.copyrights .paras{
+    letter-spacing: 2px;
+
+}
+.i-fw{
+    font-size: 40px;
+}
+
+
+.img-f{
+    border-radius: 24px;
+    border-width: 0px;
+    font-size: 3em;
+    border-width: 0px;
+}
+
+/*footer-area-end*/
+
+@media only screen and (max-width:792px){
+    body{
+        overflow: hidden;
+    }
+
+    .navbar {
+        background-color: #466ca0;
+        font-family: 'DM Sans', sans-serif;
+        letter-spacing: 2px;
+       }
+
+    .ser{
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe-area-section .container .contact-1 input{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-div{
+        display: flex;
+        justify-content: center;
+        margin-left: 7%;
+    }
+
+    .form-sb{
+        display: flex;
+        justify-content: center;
+    }
+
+    .s1{
+        font-size: 15px;
+    }
+
+    .services{
+        width: 100% ;      
+        margin: 1.5rem .1rem;
+    }
+
+    .para{
+        font-size: 25px;
+    }
+
+    .card{
+        width: 100%;
+
+    }
+     
+}
+
+@media only screen and (max-width:1019px){
+    .button.primary-button::after{
+            padding-bottom: 24px;
+    }
+}
+
